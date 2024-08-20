@@ -7,10 +7,22 @@
     color: white;
     height: 300px;
     width: auto;
+    display: flex;
+    flex-direction: row;
 }
 .intro{
     margin-left: 80px;
     padding-top: 50px;
+    display: flex;
+}
+.intro-text{
+    width: 100%;
+}
+.intro-img{
+    margin-left: 220px;
+    height: 270px;
+    width: 250px;
+    margin-top: -22px;
 }
 .name{
     font-size: 18px;
@@ -52,11 +64,11 @@
     background-color: aquamarine;
     cursor: pointer;
 }
-
     .navbar {
         background-color: #444;
         color: #fff;
         padding: 10px 0;
+    
     }
     
     .navigation-bar {
@@ -103,6 +115,11 @@
         font-size: 16px;
         border: none;
         border-radius: 3px;
+      
+    }
+    .srch{
+        width: 170px;
+        height: 25px;
     }
     
     .navbar-search button {
@@ -683,7 +700,7 @@
     }
 
     .news-item a:hover {
-        background-color: #333; /* Dark background on hover */
+        background-color: #333; 
     }
 
     .news-item:hover {
@@ -692,13 +709,13 @@
     .connect {
         text-align: center;
         padding: 30px 0;
-        background-color: #f8f9fa; /* Light background */
+        background-color: #444;
     }
 
     .connect h3 {
         font-size: 28px;
         margin-bottom: 20px;
-        color: #333;
+        color: #fff;
     }
 
     .social-links {
@@ -718,11 +735,11 @@
     }
 
     .social-links a.github {
-        background-color: #333; /* GitHub: Black/Gray */
+        background-color: #333; 
     }
 
     .social-links a.linkedin {
-        background-color: #0077b5; /* LinkedIn: Blue */
+        background-color: #0077b5; 
     }
 
     .social-links a.twitter {
